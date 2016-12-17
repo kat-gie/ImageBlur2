@@ -35,7 +35,7 @@ class Image
   def write_cell(x, y)
     return unless y >= 0 && y < @image.length
     return unless x >= 0 && x < @image[0].length
-    @image[x][y] = 1  # was reversed
+    @image[x][y] = 1  
   end
 end
 
